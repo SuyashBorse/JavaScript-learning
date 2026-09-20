@@ -2,7 +2,7 @@ let mode = "dark";
 let colour;
 
 if(mode === "dark"){
-    colour ="dark";
+    colour ="black";
 }else{
     colour ="white";
 }
