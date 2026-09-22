@@ -20,3 +20,7 @@ let marvelSupHeroes = ["IronMan" , "Thor", "Captain America"];
 let dcSupHeroes = ["Batman" , "Superman" , "Flash"];
 let supHeroes = marvelSupHeroes.concat(dcSupHeroes); //it also always returns a new array.
 console.log(supHeroes);
+
+// Unshift method
+marvelSupHeroes.unshift("Hulk"); // add an element to the start of the array.
+console.log(marvelSupHeroes);
