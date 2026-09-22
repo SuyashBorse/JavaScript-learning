@@ -17,7 +17,7 @@ console.log(marks.toString());  // it always returns a new array instead of chan
 
 // concat method 
 let marvelSupHeroes = ["IronMan" , "Thor", "Captain America"];
-let dcSupHeroes = ["Batman" , "Superman" , "Flash"];
+let dcSupHeroes = ["Batman" , "Superman" , "Flash" , "Wonder Women"];
 let supHeroes = marvelSupHeroes.concat(dcSupHeroes); //it also always returns a new array.
 console.log(supHeroes);
 
@@ -28,3 +28,7 @@ console.log(marvelSupHeroes);
 // Shift method
 marvelSupHeroes.shift(); // removes the first element of an array.
 console.log(marvelSupHeroes);
+
+// Slice method
+let sliceExp = dcSupHeroes.slice(1,3);
+console.log(sliceExp);
