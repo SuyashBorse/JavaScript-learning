@@ -9,3 +9,8 @@ console.log(codingLang);
 codingLang.pop();
 codingLang.pop();
 console.log(codingLang);
+
+// toString method
+let marks = [66,78,89,90,84];
+console.log(marks);
+console.log(marks.toString());  // it always returns a new array instead of changing the first array.
