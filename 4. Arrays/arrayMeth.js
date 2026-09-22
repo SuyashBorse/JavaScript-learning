@@ -32,3 +32,8 @@ console.log(marvelSupHeroes);
 // Slice method
 let sliceExp = dcSupHeroes.slice(1,3);
 console.log(sliceExp);
+
+//Splice method 
+console.log("before splice this is marks array", marks);
+marks.splice(1, 2 ,43,21);
+console.log("after splice this is the marks array ", marks);
