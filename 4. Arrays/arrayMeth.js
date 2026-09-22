@@ -24,3 +24,7 @@ console.log(supHeroes);
 // Unshift method
 marvelSupHeroes.unshift("Hulk"); // add an element to the start of the array.
 console.log(marvelSupHeroes);
+
+// Shift method
+marvelSupHeroes.shift(); // removes the first element of an array.
+console.log(marvelSupHeroes);
