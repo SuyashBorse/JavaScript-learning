@@ -4,3 +4,9 @@ let evenArr = arr.filter((val) =>{
     return val % 2 === 0;
 });
 
+let oddArr = arr.filter((val) => {
+    return val % 2 !== 0;
+});
+
+console.log("Array of Even elements - ",evenArr);
+console.log("Array of Odd elements - ",oddArr); 
