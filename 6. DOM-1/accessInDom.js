@@ -15,3 +15,5 @@ console.dir(firstElement);
 let allElements = document.querySelectorAll("p");
 console.dir(allElements);
 
+let queryByClass = document.querySelectorAll(".colour1");
+console.dir(queryByClass);
