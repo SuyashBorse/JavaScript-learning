@@ -12,3 +12,6 @@ console.log(para);
 let firstElement = document.querySelector("p");
 console.dir(firstElement);
 
+let allElements = document.querySelectorAll("p");
+console.dir(allElements);
+
