@@ -11,3 +11,5 @@ div1.prepend(newBtn);
 div1.before(newBtn);
 
 div1.after(newBtn);
+
+div1.remove();
