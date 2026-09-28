@@ -12,6 +12,8 @@ Btn1.ondblclick = (evt) => {
     console.log("Button was clicked 2x");  
 
 console.log(evt.type);
+console.log(evt.target);
+
 
 
 
