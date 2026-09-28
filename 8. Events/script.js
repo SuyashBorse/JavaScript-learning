@@ -6,3 +6,8 @@ Btn1.onclick = () => {
     a++;
     console.log(a);
 }
+
+Btn1.ondblclick = (e) => {
+    console.log(e);
+    console.log("Button was clicked 2x");  
+}
