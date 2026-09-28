@@ -13,8 +13,5 @@ Btn1.ondblclick = (evt) => {
 
 console.log(evt.type);
 console.log(evt.target);
-console.log(evt.clientX ,evt.clientY) );
-
-
-
+console.log(evt.clientX ,evt.clientY);
 };
