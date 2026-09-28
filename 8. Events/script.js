@@ -7,7 +7,12 @@ Btn1.onclick = () => {
     console.log(a);
 }
 
-Btn1.ondblclick = (e) => {
-    console.log(e);
+Btn1.ondblclick = (evt) => {
+    console.log(evt);
     console.log("Button was clicked 2x");  
-}
+
+console.log(evt.type);
+
+
+
+};
