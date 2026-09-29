@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: 'https://github.com/SuyashBorse/JavaScript-learning/tree/main/9.%20Tic%20Tac%20Toe%20Game'
+          path: '9. Tic Tac Toe Game'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
