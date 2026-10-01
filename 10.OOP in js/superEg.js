@@ -1,5 +1,6 @@
 class Person {
-    constructor() {
+    constructor(fullname) {
+        this.name = fullname;
         this.spicies = "Homo Sapiens";
     }
 
@@ -13,8 +14,8 @@ class Person {
 }
 
 class Engineer extends Person{
-    constructor(){
-        super();  // to invoked the parent constructor.
+    constructor(fullname){
+        super(fullname);  // to invoked the parent constructor.
         this.branch = branch;
     }
 
@@ -23,4 +24,4 @@ class Engineer extends Person{
     }
 }
 
-let hitesh = new Engineer();
+let hitesh = new Engineer("Hitesh");
