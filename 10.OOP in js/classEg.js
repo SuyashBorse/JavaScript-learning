@@ -1,5 +1,7 @@
 class ToyotaCar {
-
+   constructor(){
+    console.log("Object created.");
+   }
     start(){
         console.log("car is started.");
     }
@@ -12,3 +14,6 @@ class ToyotaCar {
 let fortuner = new ToyotaCar();
 fortuner.start();
 fortuner.stop();
+
+let lexus = new ToyotaCar();
+lexus.start();
