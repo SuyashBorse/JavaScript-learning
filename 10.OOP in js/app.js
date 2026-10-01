@@ -17,6 +17,9 @@ const employee = {
 
 const kalpesh = {
     salary : 10000,
+    callTax(){
+        console.log("Tax rate is 20%");
+    },
 };
 
 kalpesh.__proto__= employee;
