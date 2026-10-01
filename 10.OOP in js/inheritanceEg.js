@@ -14,8 +14,22 @@ class Engineer extends Person{
     }
 }
 
+class Doctor extends Engineer{
+    work(){
+        console.log("Is working");
+    }
+
+    study(){
+        console.log("Doc is revising");   // method overriding.
+    }
+}
 let kalpesh = new Engineer();
 
-kalpesh.study();
-kalpesh.eat();
-kalpesh.sleep();
+// kalpesh.study();
+// kalpesh.eat();
+// kalpesh.sleep();
+
+let lokesh = new Doctor();
+
+lokesh.work();
+lokesh.study();
