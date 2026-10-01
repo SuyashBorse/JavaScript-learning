@@ -8,3 +8,15 @@ const Student = {
        console.log("Marks of kalpesh are: ",marks);
     }
 };
+
+const employee = {
+    callTax(){
+         console.log("Tax rate is 10%");
+    },
+};
+
+const kalpesh = {
+    salary : 10000,
+};
+
+kalpesh.__proto__= employee;
