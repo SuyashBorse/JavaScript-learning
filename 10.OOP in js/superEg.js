@@ -16,6 +16,7 @@ class Person {
 class Engineer extends Person{
     constructor(fullname){
         super(fullname);  // to invoked the parent constructor.
+        super.eat();
         this.branch = branch;
     }
 
