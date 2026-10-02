@@ -1,13 +1,14 @@
-function getData(data, nextData) {
-    setTimeout(() => {
+function getData(data, nextData){
+  return new Promise((resolve , reject) => {
+ setTimeout(() => {
         console.log("Data" , data);
+        resolve("Success");
         if(nextData){
-nextData();
+         nextData();
         } 
-    }, 3000);
+    }, 5000);
+  });
 }
-
-// callback hell
 
 getData(1 , () => {
     getData(2, () => {
