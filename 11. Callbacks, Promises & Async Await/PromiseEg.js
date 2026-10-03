@@ -2,7 +2,7 @@ function getData(data, nextData){
   return new Promise((resolve , reject) => {
  setTimeout(() => {
         console.log("Data" , data);
-        resolve("Success");
+        resolve("Success"); 
         if(nextData){
          nextData();
         } 
