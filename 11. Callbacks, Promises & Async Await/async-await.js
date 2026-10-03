@@ -7,6 +7,6 @@ function api() {
     });
 }
 
-async function apicall() {
+(async function apicall() {
     await api();
-}
+})();
